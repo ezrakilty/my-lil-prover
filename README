@@ -1,0 +1,11 @@
+This is a little toy propositional theorem-prover, for exploration and
+learning purposes.
+
+One of the things I want to do is to create a good "challenge generator":
+something to generate propositions that are "interesting" for a human (or a
+robot) to try and prove. To be "interesting" is something like to be full of
+variables (not a lot of T and _|_ constants), to be relevant (assumptions
+should be used, most or all of the time) and perhaps to be linear (each
+assumption used just once). Perhaps I'll create a generator for linear, affine
+and relevant terms, or something that is has a knob that moves you gradually
+through that space.
